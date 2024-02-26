@@ -1,0 +1,46 @@
+# Earthquake Visualization Project
+
+## Overview
+
+This project visualizes earthquake data from the United States Geological Survey (USGS) using Leaflet, a JavaScript library for interactive maps. The application plots earthquakes based on their longitude and latitude, with marker sizes reflecting the magnitude and colors indicating the depth of each earthquake.
+
+## Features
+
+- **Real-time Earthquake Data**: Fetches the latest earthquake data from the USGS GeoJSON Feed.
+- **Interactive Map**: Users can interact with the map, zooming in and out to see earthquakes worldwide.
+- **Magnitude and Depth Indicators**: Earthquake markers vary in size based on their magnitude and color based on their depth, providing visual insights into the nature of each earthquake.
+- **Detailed Information on Click**: Clicking on an earthquake marker displays a popup with detailed information, including magnitude, location, and depth.
+- **Customizable Map Views**: Includes base layers for different map styles (e.g., street, topographic, grayscale) that users can switch between.
+- **Legend**: A legend explains the color scale used for earthquake depths.
+
+## Technology Stack
+
+- HTML5
+- CSS3
+- JavaScript
+- [Leaflet](https://leafletjs.com/) for interactive maps
+- [D3.js](https://d3js.org/) for fetching and processing GeoJSON data
+
+## Getting Started
+
+### Prerequisites
+
+- A modern web browser with JavaScript enabled
+- Access to the internet to fetch earthquake data and map tiles
+
+### Installation
+
+1. Clone the repository or download the source code to your local machine.
+2. Open the `index.html` file in a web browser to view the project.
+
+## Usage
+
+- The map will automatically load with the latest earthquake data plotted.
+- Use the mouse to navigate the map, zoom in and out, and click on markers for more details.
+- Switch between different base map styles using the controls in the top right corner of the map.
+- Refer to the legend in the bottom right corner to understand the color scale for earthquake depths.
+
+## Acknowledgments
+
+- Thanks to the United States Geological Survey (USGS) for providing open access to earthquake data.
+- Leaflet and D3.js communities for the excellent documentation and resources.
